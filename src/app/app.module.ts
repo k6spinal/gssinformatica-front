@@ -32,6 +32,9 @@ import { CategoriaReadComponent } from './components/view/categoria/categoria-re
 import { AppRoutingModule } from './app-routing.module';
 import { CategoriaCreateComponent } from './components/view/categoria/categoria-create/categoria-create.component';
 import { CategoriaDeleteComponent } from './components/view/categoria/categoria-delete/categoria-delete.component';
+import { CategoriaUpdateComponent } from './components/view/categoria/categoria-update/categoria-update.component';
+import { LivroReadAllComponent } from './components/view/livro/livro-read-all/livro-read-all.component';
+import { LivroCreateComponent } from './components/livro/livro-create/livro-create.component';
 
 
 @NgModule({
@@ -48,6 +51,9 @@ import { CategoriaDeleteComponent } from './components/view/categoria/categoria-
     CategoriaReadComponent,
     CategoriaCreateComponent,
     CategoriaDeleteComponent,
+    CategoriaUpdateComponent,
+    LivroReadAllComponent,
+    LivroCreateComponent,
   ],
   imports: [
     BrowserModule,
